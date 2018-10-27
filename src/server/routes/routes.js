@@ -20,10 +20,6 @@ router.get('/developer', (req, res) => {
     res.render('developer.html');
 });
 
-router.get('/developer', (req, res) => {
-    res.render('developer.html');
-});
-
 router.get('/portfolio', (req, res) => {
     res.render('portfolio.html');
 });
